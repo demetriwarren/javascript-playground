@@ -8,11 +8,11 @@ add(1, 2);                      // argument is what is entered.
 
 
 //below is Craig's example of creating an add function. 
-
+//this is a function declaration
 function add(number1, number2){
     let result = number1 + number2;
     return result;
 }
 
-let sum = (100, 200);
+let sum = add(100, 200);
 console.log(sum);
